@@ -5,3 +5,6 @@
 
 * `Domatix <https://domatix.com>`_:
     * Carolina Ferrer
+    
+* `Akretion  <http://www.akretion.com/>`_:
+    * Mathieu Delva <mathieu.delva@akretion.com>

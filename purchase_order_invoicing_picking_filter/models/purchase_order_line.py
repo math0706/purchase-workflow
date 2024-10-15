@@ -14,7 +14,6 @@ class PurchaseOrderLine(models.Model):
             "product_id": self.product_id.id,
             "product_uom_id": self.product_uom.id,
             "quantity": qty,
-            "discount": self.discount,
             "price_unit": self.price_unit,
             "purchase_line_id": self.id,
             "move_line_ids": [move.id],
