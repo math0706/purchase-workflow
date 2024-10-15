@@ -3,6 +3,7 @@ from odoo import api, fields, models
 
 class PurchaseInvoincingPickingFilter(models.TransientModel):
     _name = "purchase.invoicing.picking.filter"
+    _description = "Purchase Invoicing Picking Filter"
 
     purchase_order_ids = fields.Many2many(
         "purchase.order", default=lambda self: self.env.context.get("active_ids")
